@@ -1,4 +1,4 @@
 print("Hello World")
 
-out=input("인사말은 ?")
-print(out)
+say=input("인사말은 ?")
+print(say)
