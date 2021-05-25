@@ -1,7 +1,7 @@
 def sum_nums(*args):
     data=0
     for i in args:
-        data += 1
+        data += i
     data_mean= data / len(args)
     
     print(f'합은: {data} 평균: {data_mean}')
@@ -9,3 +9,4 @@ def sum_nums(*args):
 
 
 sum_nums(10,20,30)
+sum_nums(10,20,30,40,50)
